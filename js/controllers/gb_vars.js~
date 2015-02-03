@@ -1,0 +1,5 @@
+
+//Defining the titles and sub-titles with the global variables
+document.getElementById('Title').innerHTML = gb_vars[0];
+document.getElementById('sub-Title').innerHTML = gb_vars[1];
+document.getElementById('date').innerHTML = gb_vars[2];

@@ -1,0 +1,48 @@
+<!----------header de primera plana---------->
+<script src="/Hub_politico_test/js/controllers/gb_vars.js"></script>
+<script src="/Hub_politico_test/js/controllers/search_module.js"></script>
+
+<div id="header-primera-plana">
+
+	<center>
+
+		<!---------div for display the title--------->
+		<div id="Title" onload="this.innerHTML=title;"></div><br />
+		<!---------div for display the sub-title, slogan--------->
+		<div id="sub-Title">Opinión pública en tiempo real</div> <br />
+		<!---------div for display the date--------->
+		<div id="date">Viernes 19 de enero del 2015</div><br />
+		<!---------lines, merely disign------------->
+		<hr id="first-line" class="header-line" />
+
+		<hr id="second-line" class="header-line" />
+
+		<div id="menu">
+
+			<button type="button" class="btn menu-button">Noticias</button>
+			<button type="button" class="btn menu-button">Estadísticas</button>
+			<button type="button" id="polits" class="btn menu-button">Popularidad</button>
+			<button type="button" class="btn menu-button">Tecnología</button>
+
+			<button type="button" class="btn menu-button">Arte & Cultura</button>
+			<button type="button" class="btn menu-button">Ciencia</button>
+			<button type="button" class="btn menu-button">Columnistas</button>
+			<button type="button" class="btn menu-button">Cartoons</button>
+
+			<div id="search-box">
+
+				<button type="button" id="search-button">
+  					<span class="glyphicon glyphicon-search" id="search-icon" aria-hidden="true"></span>
+				</button>
+
+			</div>
+
+			<input type="text" id="search-field" class="form-control" placeholder="Búsqueda"/>
+
+			<hr id="menu-line" />
+
+		</div>
+
+	</center>
+
+</div>

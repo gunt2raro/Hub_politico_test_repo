@@ -1,0 +1,315 @@
+/***
+* common.css
+* Author hubpolitico.com
+* blah blah
+
+
+/*****General body********************/
+body {
+
+	background-color : rgb( 255, 255, 255 );
+	color : rgb( 100, 104, 106 );
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size : 12px;
+	font-weight : 300;
+
+}
+
+a {
+
+	color : #393939;
+
+}
+
+::selection {
+    color: #fff;
+    background: #393939;
+}
+
+/******** Nav bar *******/
+.menu_bar{
+
+	margin-top: -60px;
+	height: auto;
+	background-image: none;
+	font-size : 12px;
+
+}
+
+.navbar-nav{
+
+	font-size: 15px;
+
+}
+
+#myNavbar{
+
+	height: 20px;
+	color: white;
+
+	background-color : rgb( 255, 255, 255 );
+	color : #393939;
+	height: 20px;
+	font-family: "Helvetica";
+	font-size : 12px;
+
+}
+
+/********************Front page**************************/
+
+/********** Front header*********/
+#header-primera-plana{
+
+	margin-top: 0px;
+
+}
+
+#Title{
+
+	font-size : 60px;
+	color : #393939;
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+	font-weight: bold;
+
+}
+
+#sub-Title{
+
+	margin-top: -30px;
+	font-size : 20px;
+	color : #393939;
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+	font-weight: bold;
+
+}
+
+#date {
+
+	margin-top: -10px;
+	font-size : 12px;
+	color : #393939;
+	font-family : Arial, Helvetica, sans-serif;
+
+}
+
+.header-line{
+
+   	background-color : #393939;
+	border : plane;
+	max-width : 1024px;
+	margin-top: -10px;
+}
+
+#first-line{
+
+    	height : 11px;
+
+}
+
+#second-line{
+
+	height : 3px;
+
+}
+
+/********************Menu and menu buttons****************************/
+
+#menu{
+
+	margin-top:-15px;
+	max-width : 1024px;
+}
+
+#menu-line{
+
+	background-color : #393939;
+	border : plane;
+	max-width : 1024px;
+	height: 1px;
+	margin-top: 1px;
+
+}
+
+.menu-button{
+
+	font-size : 14px;
+	color : white;
+	background-color: #4a4a4a;
+	border-radius: 12px;
+
+}
+
+.menu-button:hover{
+
+	color : #393939;
+	background-color: white;
+}
+
+/********************************Search input and logo***************/
+
+#search-field{
+
+	margin-top : 5px;
+
+}
+
+#search-box{
+
+	float:right;
+	display:inline;
+
+}
+
+#search-button{
+
+	font-size : 14px;
+	border:none;
+	background-color : white;
+}
+
+#search-icon{
+
+	font-size : 25px;
+	width : 50px;
+	height : 30px;
+
+}
+
+
+/************************************************Conent******************************************/
+
+.content{
+
+	max-width : 1024px;
+	min-height : 700px;
+
+}
+
+.content > .row{
+
+	min-height : 500px;
+
+}
+
+.col-md-6.center{
+
+	min-height : 500px;
+
+}
+
+.col-md-3.left{
+
+	min-height : 500px;
+
+}
+
+.col-md-3.right{
+
+	min-height : 500px;
+
+}
+
+
+/*********************************Posts**********************************************************/
+
+.post-line{
+
+	background-color : #393930;
+	border : plane;
+	max-width : 256px;
+	margin-top : 2px;
+}
+
+#last-line{
+
+	height : 1px;
+
+}
+
+.post_front_page{
+
+	text-align: left;
+	margin-top: -5px;
+}
+
+.post_front_page > .title{
+
+	font-size : 18px;
+	font-family : paytone-one, sans-serif;
+	color : #393939;
+
+}
+
+.post_front_page > .title:hover{
+
+	color: #448A9D
+}
+
+.post_front_page > .author{
+
+	font-size : 12px;
+	color : #4a4a4a;
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+	font-weight: bold;
+
+}
+
+.post_front_page > .author:hover{
+
+	color : #1E7775;
+
+}
+
+.post_front_page > .date{
+
+	margin-top : 5px;
+	font-size : 10px;
+	text-align : left;
+	color : #393939;
+	font-family : josefin-sans, sans-serif;
+
+}
+
+.post_front_page > .post_content{
+
+	text-align: justify;
+	font-size : 14px;
+	margin-top : 5px;
+	color : #393939;
+	font-family : fanwood-text, sans-serif;
+
+}
+.post_front_page > .post_popularity{
+
+	text-align: right;
+	font-size : 14px;
+	color : #4a4a4a;
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+
+}
+
+.post_front_page > .post_popularity:hover{
+
+	color : #448A9D;
+
+}
+
+.post_front_page > .post_social{
+
+	text-align: right;
+	font-size : 14px;
+	color : #071F54;
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+
+}
+
+.post_front_page > .post_social:hover{
+
+	color : #448A9D;
+
+}
