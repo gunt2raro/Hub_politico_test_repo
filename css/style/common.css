@@ -25,7 +25,9 @@ a {
     color: #fff;
     background: #393939;
 }
-
+*:focus {
+    outline: 0;
+}
 /******** Nav bar *******/
 .menu_bar{
 
@@ -102,20 +104,19 @@ a {
 	margin-top: -10px;
 }
 
-#first-line{
+#first-header-line{
 
     	height : 11px;
 
 }
 
-#second-line{
+#second-header-line{
 
 	height : 3px;
 
 }
 
 /********************Menu and menu buttons****************************/
-
 #menu{
 
 	margin-top:-15px;
@@ -134,7 +135,8 @@ a {
 
 .menu-button{
 
-	font-size : 14px;
+	height : 30px;
+	font-size : 13px;
 	color : white;
 	background-color: #4a4a4a;
 	border-radius: 12px;
@@ -164,16 +166,16 @@ a {
 
 #search-button{
 
-	font-size : 14px;
+	font-size : 13px;
 	border:none;
 	background-color : white;
 }
 
 #search-icon{
 
-	font-size : 25px;
+	font-size : 20px;
 	width : 50px;
-	height : 30px;
+	height : 25px;
 
 }
 
@@ -208,6 +210,39 @@ a {
 .col-md-3.right{
 
 	min-height : 500px;
+	border : solid;
+	border-color : #D7B71C;
+
+}
+
+.col-md-3.right > #title_box{
+
+	text-align : center;
+	margin-top : -10px;
+	height : 20px;
+	line-height : 20px;
+	font-size : 20px;
+	color : #393939;
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+	font-weight: bold;
+
+}
+
+.col-md-3.right > #title_box > span{
+
+	background-color: white;
+
+}
+
+.img-responsive{
+
+
+}
+.img-responsive:hover{
+
+	-webkit-filter: grayscale(100%);
+    	filter : alpha(opacity=70);
 
 }
 
@@ -218,7 +253,7 @@ a {
 
 	background-color : #393930;
 	border : plane;
-	max-width : 256px;
+	max-width : 100%;
 	margin-top : 2px;
 }
 
@@ -232,13 +267,23 @@ a {
 
 	text-align: left;
 	margin-top: -5px;
+	margin-bottom : 30px;
 }
 
 .post_front_page > .title{
 
-	font-size : 18px;
-	font-family : paytone-one, sans-serif;
+	font-size : 24px;
+	font-family : fanwood-text, sans-serif;
+	color : #000;
+
+}
+
+.column_post > .title{
+
+	font-size : 20px;
+	font-family : fanwood-text, sans-serif;
 	color : #393939;
+	text-align : right;
 
 }
 
@@ -254,6 +299,18 @@ a {
 	font-family : Georgia, serif;
 	font-variant: small-caps;
 	font-weight: bold;
+
+}
+
+
+.column_post > .column_name{
+
+	font-size : 15px;
+	color : #4a4a4a;
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-align : left;
 
 }
 
@@ -276,12 +333,19 @@ a {
 .post_front_page > .post_content{
 
 	text-align: justify;
-	font-size : 14px;
+	font-size : 15px;
 	margin-top : 5px;
 	color : #393939;
 	font-family : fanwood-text, sans-serif;
 
 }
+
+.column_post > .post_content{
+
+	text-align : right;
+
+}
+
 .post_front_page > .post_popularity{
 
 	text-align: right;
@@ -292,11 +356,6 @@ a {
 
 }
 
-.post_front_page > .post_popularity:hover{
-
-	color : #448A9D;
-
-}
 
 .post_front_page > .post_social{
 
@@ -312,4 +371,275 @@ a {
 
 	color : #448A9D;
 
+}
+
+.post_lateral_right{
+
+
+}
+
+.big_center > .date{
+
+	text-align : left;
+
+}
+
+.big_center > .author{
+
+	text-align : left;
+
+}
+
+.big_center > .title{
+
+	font-size : 33px;
+	text-align : left;
+	color : #393939;
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+	font-weight: bold;
+
+}
+
+.big_center > .post-line{
+
+	background-color : #393930;
+	border : plane;
+	max-width : 100%;
+	margin-top : 2px;
+
+}
+/******************************* votes *************************************************************************************/
+
+.pos_number{
+
+	color : #448A9D;
+
+}
+
+.neg_number{
+
+	color : #E30808;
+
+}
+
+.pos_button:hover{
+
+	font-size : 17px;
+	color : #448A9D;
+
+}
+
+.neg_button:hover{
+
+	font-size : 17px;
+	color : #E30808;
+
+}
+
+/******************************************* social ********************************************************/
+.glyphicon-envelop{
+
+	color : blue;
+	margin-left : 5px;
+
+}
+.glyphicon-envelop:hover{
+
+	font-size : 18px;
+
+}
+
+.fa.fa-facebook.fa-1g{
+
+	color : #3b5998;
+	margin-left : 5px;
+
+}
+.fa.fa-facebook.fa-1g:hover{
+
+	font-size : 18px;
+
+}
+.fa.fa-twitter.fa-1g{
+
+	color : #4099FF;
+	margin-left : 5px;
+
+}
+.fa.fa-twitter.fa-1g:hover{
+
+	font-size : 18px;
+
+}
+
+.fa.fa-google-plus.fa-1g{
+
+	color : #d62d20;
+	margin-left : 5px;
+
+}
+
+.fa.fa-google-plus.fa-1g:hover{
+
+	font-size : 18px;
+
+}
+/**********************************************************************Flash******************************************************************/
+
+.flash{
+
+	max-width : 1024px;
+	margin-top : -15px;
+}
+
+.flash-line{
+
+   	background-color : #E30808;
+	border : plane;
+	max-width : 1024px;
+
+}
+
+.flash > #first-line{
+
+    	height : 1px;
+
+}
+
+.flash > #second-line{
+
+	height : 1px;
+
+}
+
+#flash-content {
+
+	margin-top : -15px;
+	margin-bottom : -15px;
+	color : #E30808;
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+	font-style : italic;
+	font-weight: bold;
+
+}
+
+/***********************************extra content*****************************/
+
+
+.media_container{
+
+	min-height : 180px;
+	border : solid;
+	border-color : #393939;
+
+}
+
+.media_container > #title_box{
+
+	text-align : center;
+	margin-top : -10px;
+	height : 20px;
+	line-height : 20px;
+	font-size : 20px;
+	color : #393939;
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+	font-weight: bold;
+
+}
+
+.media_container > #title_box > span{
+
+	background-color: white;
+
+}
+
+.people_container{
+
+	min-height : 200px;
+	border : solid;
+	border-color : #E30808;
+
+}
+
+.people_container > #title_box{
+
+	text-align : center;
+	margin-top : -10px;
+	height : 20px;
+	line-height : 20px;
+	font-size : 20px;
+	color : #393939;
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+	font-weight: bold;
+
+}
+
+.people_container > #title_box > span{
+
+	background-color: white;
+
+}
+
+.country_container{
+
+	min-height : 200px;
+	border : solid;
+	border-color : #448A9D;
+	border-right-color : white;
+
+}
+
+.country_container > #title_box{
+
+	text-align : center;
+	margin-top : -10px;
+	height : 20px;
+	line-height : 20px;
+	font-size : 20px;
+	color : #393939;
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+	font-weight: bold;
+
+}
+
+.country_container > #title_box > span{
+
+	background-color: white;
+
+}
+
+.row.extra_content{
+
+	max-width : 1024px;
+	margin-top : 50px;
+	margin-bottom : 50px;
+
+}
+
+.media{
+
+	max-width : 1024px;
+	min-height : 180px;
+	background-color : gray;
+
+}
+
+.country{
+
+	max-width : 512px;
+	min-height : 300px;
+	background-color : gray;
+
+}
+
+.people{
+
+	max-width : 256px;
+	min-height : 300px;
+	background-color : gray;
 }

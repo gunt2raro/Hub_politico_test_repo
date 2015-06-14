@@ -1,0 +1,243 @@
+
+
+a {
+
+	color : #393939;
+
+}
+
+::selection {
+    color: #fff;
+    background: #393939;
+}
+
+*:focus {
+    outline: 0;
+}
+
+/********* header*********/
+.header{
+
+	min-height : 50px;
+	max-width : 1024px;
+
+}
+
+
+#header-hub{
+
+	margin-top: 0px;
+
+}
+
+.header-line{
+
+   	background-color : #393939;
+	border : plane;
+	max-width : 1024px;
+
+}
+
+#first-header-line{
+
+    	height : 11px;
+	margin-top: 50px;
+
+}
+
+#second-header-line{
+
+	height : 3px;
+
+}
+
+#Title{
+
+	font-size : 40px;
+	color : #393939;
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	float : left;
+
+}
+
+/******** Nav bar *******/
+.menu_bar{
+
+	margin-top: -60px;
+	height: auto;
+	background-image: none;
+	font-size : 12px;
+
+}
+
+.navbar-nav{
+
+	font-size: 15px;
+
+}
+
+#myNavbar{
+
+	height: 20px;
+	color: white;
+
+	background-color : rgb( 255, 255, 255 );
+	color : #393939;
+	height: 20px;
+	font-family: "Helvetica";
+	font-size : 12px;
+
+}
+
+/***************************Content**********************/
+.hub-app{
+
+	max-width : 1024px;
+	height : 500px;
+	background-color : white;
+
+}
+
+.tools {
+
+	height : 25px;
+	background-color : white;
+
+}
+/******** happenning *********/
+#happening{
+
+	margin-top : 20px;
+	height : 150px;
+	background-color : white;
+
+}
+
+/******* Line *************/
+.hub-line{
+
+   	background-color : #393939;
+	border : plane;
+	max-width : 1024px;
+	margin-top: 20px;
+
+}
+
+#line-middle{
+
+    	height : 8px;
+
+}
+
+/****** left_bar **********/
+#user_info{
+
+	height : 100px;
+	width : 95%;
+	margin-top : 20px;
+
+}
+
+#write_post_button{
+
+	margin-top : 60px;
+	height : 30px;
+	font-size : 13px;
+	color : white;
+	background-color: #4a4a4a;
+	border-radius: 12px;
+	width : 95%;
+
+}
+
+#write_post_button:hover{
+
+	color : #4a4a4a;
+	background-color: #fff;
+
+}
+
+.list-group{
+
+	margin-top : 20px;
+	background-color : white;
+	height : 200px;
+	width : 95%;
+	color : #393939;
+	font-size : 15px;
+
+}
+
+#ad_box{
+
+	margin-top : -10px;
+	width : 95%;
+	height : 200px;
+
+}
+
+/***User box shit *****************/
+
+.real_name_label > a{
+
+	color : #0D3546;
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+	margin-right : 0px;
+	font-size : 20px;
+
+}
+
+.real_name_label > a:hover{
+
+	color : #1E7775;
+
+}
+
+.username_label > a{
+
+	color : #0D3546;
+	font-family : bentham, serif;
+	margin-right : 0px;
+	font-size : 20px;
+
+}
+
+.username_label > a:hover{
+
+	color : #1E7775;
+
+}
+
+#select-category{
+
+	margin-top : 10px;
+	height : 30px;
+	width : 100%;
+
+}
+
+a.list-group-item{
+
+	color : #393939;
+	font-family : fanwood-text, sans-serif;
+	font-size : 15px;
+
+}
+/******************Categories******************/
+.btn.btn-default.dropdown-toggle{
+
+	font-size : 12px;
+	background-color : white;
+	border-radius: 12px;
+	width : 95%;
+
+}
+
+.btn-default{
+
+	background-image : none;
+
+}

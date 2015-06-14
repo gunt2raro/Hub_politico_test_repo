@@ -1,0 +1,45 @@
+<?php
+
+	session_start();
+
+	$token = $_SESSION['token'] = md5( uniqid( mt_rand(), true ) );
+
+?>
+<!DOCTYPE html>
+<html lang="es">
+
+	<header>
+                <meta charset="utf-8" />
+		<title>Log In</title>
+	</header>
+
+	<body>
+
+		<form method="POST">
+
+			<p>
+				<label>Username</label>
+				<input id="username" name="username" />
+			</p>
+			<p>
+				<label>Password</label>
+				<input id="passowrd" name="password" />
+			</p>
+			<input type="hidden" name="token" value='<?=$token;?>' />
+			<input type="submit" value="Log In"/>
+
+
+			<div id="social_login_box" class="social_box"></div>
+
+		</form>
+
+		<div id="options_login">
+
+			<label>¿No te has registrado?&nbsp;</label><a href="#">Registrate</a>
+
+			<div id="social_registtration_box" class="social_box"></div>
+		</div>
+
+	</body>
+
+</html>

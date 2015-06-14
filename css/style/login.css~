@@ -1,0 +1,151 @@
+/******** Nav bar *******/
+.menu_bar{
+
+	margin-top: -60px;
+	height: auto;
+	background-image: none;
+	font-size : 12px;
+
+}
+
+.navbar-nav{
+
+	font-size: 15px;
+
+}
+
+#myNavbar{
+
+	height: 20px;
+	color: white;
+
+	background-color : rgb( 255, 255, 255 );
+	color : #393939;
+	height: 20px;
+	font-family: "Helvetica";
+	font-size : 12px;
+
+}
+
+/********* header*********/
+#header-login{
+
+	margin-top: 0px;
+
+}
+
+.header-line{
+
+   	background-color : #393939;
+	border : plane;
+	max-width : 1024px;
+}
+
+#first-header-line{
+
+    	height : 11px;
+	margin-top: 50px;
+
+}
+
+#second-header-line{
+
+	height : 3px;
+
+}
+
+/********************Menu and menu buttons****************************/
+
+#menu{
+
+	margin-top:-15px;
+	max-width : 1024px;
+}
+
+#menu-line{
+
+	background-color : #393939;
+	border : plane;
+	max-width : 1024px;
+	height: 1px;
+	margin-top: 1px;
+
+}
+
+#Title{
+
+	font-size : 40px;
+	color : #393939;
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	float : left;
+
+}
+
+.menu-button{
+
+	height : 30px;
+	font-size : 13px;
+	color : white;
+	background-color: #4a4a4a;
+	border-radius: 12px;
+
+}
+
+.menu-button:hover{
+
+	color : #393939;
+	background-color: white;
+}
+
+
+.content{
+
+    	max-width: 1024px;
+  	text-align: center;
+
+}
+
+.inputs_box{
+
+	margin-top : 200px;
+	margin-left : 25px;
+	margin-right : -25px;
+
+}
+
+label{
+
+	font-family : Georgia, serif;
+	font-variant: small-caps;
+
+}
+
+.log-but{
+
+	height : 35px;
+	font-size : 15px;
+	color : white;
+	background-color: #4a4a4a;
+	border-radius: 12px;
+
+}
+
+.header{
+
+	min-height : 50px;
+	max-width : 1024px;
+
+}
+
+a {
+
+	color : #393939;
+
+}
+
+::selection {
+    color: #fff;
+    background: #393939;
+}

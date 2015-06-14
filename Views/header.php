@@ -5,7 +5,7 @@
 <!----------header de primera plana---------->
 <script src="/Hub_politico_test/js/controllers/search_module.js"></script>
 
-<div id="header-primera-plana">
+<div id="header-primera-plana" class="header" >
 
 	<center>
 
@@ -16,9 +16,9 @@
 		<!---------div for display the date--------->
 		<div id="date"><? print( $GLOBALS['date'] ); ?></div><br />
 		<!---------lines, merely disign------------->
-		<hr id="first-line" class="header-line" />
+		<hr id="first-header-line" class="header-line" />
 
-		<hr id="second-line" class="header-line" />
+		<hr id="second-header-line" class="header-line" />
 
 		<div id="menu">
 
