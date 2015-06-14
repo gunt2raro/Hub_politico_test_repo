@@ -1,6 +1,8 @@
 ;config_file
-;this file works as a configuration file for all the warrior project;write here the db information and shit
-;as well if you want to add new modulesto the porject and/or scripts;for comments jsut add the ';' character
+;this file works as a configuration file for all the warrior project
+;write here the db information and shit
+;as well if you want to add new modulesto the porject and/or scripts
+;for comments jsut add the ';' character
 ;for a new variable just put name variable between '[variable_name]' followed by ':'varuable_value';'
 
 [project_name]:'Hub_politico_test';
